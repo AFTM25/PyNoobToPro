@@ -27,5 +27,18 @@ print(f'Data buah setelah di append = {data_buah1}\n')
 data_buah = ['Pepaya', 'Belimbing', 'Semangka']
 data_buah1.extend(data_buah)
 print(f'Data buah setelah di extend = {data_buah1}')
-print(f'Jumlah nya sekarang adalah {len(data_buah1)} item')
+print(f'Jumlah nya sekarang adalah {len(data_buah1)} item\n')
+
+# Merubah item pada list dengan index 
+data_buah1[1] = 'Melon'
+print(f'Data buah setelah di ubah = {data_buah1}\n')
+
+# Menghapus item
+data_buah1.remove('Pepaya')
+print(f'Data buah setelah di remove = {data_buah1}\n')
+
+# Menghapus item terakhir
+del_data = data_buah1.pop()
+print(f'Data buah sekarang adalah {data_buah1}')
+print(f'Item yang dihapus adalah {del_data}')
 
