@@ -8,5 +8,5 @@ print(f'Data angka = {list_angka}')
 
 # membuat list dengan list comprehension
 list_nama = ['anggun', 'iwan', 'mahdara', 'keyla', 'zaka']
-list_nama_upp = [nama.upper() for nama in list_nama]
-print(f'Data nama = {list_nama_upp}')
+list_nama_capt = [nama.capitalize() for nama in list_nama]
+print(f'Data nama = {list_nama_capt}')
